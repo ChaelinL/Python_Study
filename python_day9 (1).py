@@ -1,9 +1,9 @@
 
 #기본 예제 (p.149)
 #1
-# expr = input("계산식을 입력하세요 >>> ")
-# result = eval(expr)
-# print(expr+'='+str(result))
+expr = input("계산식을 입력하세요 >>> ")
+result = eval(expr)
+print(expr+'='+str(result))
 
 #2
 money = 10000
