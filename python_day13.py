@@ -24,25 +24,6 @@ with open(time.strftime('%Y-%m-%d')+'.txt','at') as f:
             f.write(schedule+"\n")
 
 
-# 기본 예제 응용 (스케쥴 메뉴 만들기)
-import time
-
-file_name = time.strftime('%Y-%m-%d')+".txt"
-
-def add_schedule(schedule):
-    if not schedule:
-        print("할 일을 입력하지 않았습니다.")
-        return
-    with open(file_name,'a') as f:
-        f.write(schedule+'\n')
-    print("할 일이 추가되었습니다.")
-
-def print_schedule():
-    with open(file_name, 'r') as f:
-        for s in f.readlines():
-            print(s.rstrip('\n'))
-
-
 # 기본 예제 (p.237)
 with open('엄마돼지아기돼지.txt','r') as f:
     line_list = f.readlines()
