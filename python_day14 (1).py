@@ -68,7 +68,7 @@ class Singer:
         print(f'가수이름: {self.name}')
         print(f'노래제목:', end ="")
         self.song.print_song()
-
+        
 # import 파일명
 #
 # song = 파일명.Song()
