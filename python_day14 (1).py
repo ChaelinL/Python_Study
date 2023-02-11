@@ -11,7 +11,7 @@ class Watch:
         self.second = int(args[2])
 
         # 방법 2
-        self.hour, self.minute, self.second = map(int, format.split(':'))
+        self.hour, self.minute, self.second = map(int, time.split(':'))
 
     def add_hour(self, n):
         self.hour += n
